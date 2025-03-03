@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Compile sourcepawn
-        uses: spiretf/spcomp@v0.1.0
+        uses: tashvelocity/spcomp@latest
         with:
           source: './plugin/autoexec.sp'
           target: './plugin/autoexec.smx'
