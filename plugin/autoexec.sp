@@ -45,6 +45,7 @@ public OnPluginStart() {
 	mapPrefixMap.SetString("koth_", "koth");
 	mapPrefixMap.SetString("ctf_", "ctf");
 
+	configOverwriteMap.SetString("ulti_", "etf2l_ultiduo");
 	configOverwriteMap.SetString("ultiduo_", "etf2l_ultiduo");
 	configOverwriteMap.SetString("bball_", "etf2l_bball");
 	configOverwriteMap.SetString("ctf_bball", "etf2l_bball");
